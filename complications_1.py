@@ -24,8 +24,8 @@
 # print(sum(list_1))
 #סיבוכיות לינארית בגלל שזה תלוי במספר הקלטים של המשתמש
 #6
-list_2=[1,2,3,4,5,6,7,8]
-for i,v in enumerate(list_2):
-    if i<len(list_2)/2:
-        print(v)
+# list_2=[1,2,3,4,5,6,7,8]
+# for i,v in enumerate(list_2):
+#     if i<len(list_2)/2:
+#         print(v)
 #בגלל שהרשימה ידועה מראש אז זוהי סיבוכיות קבועה כי היא ידועה מראש
