@@ -17,19 +17,31 @@
 #O(n) וכן ניתן על ידי שהכנסנו בהדפסה אחת את שני האיברים
 #3
 # def min_num(li):
+#     global c
+#     c=1
 #     min=li[0]
+#     c+=1
 #     for i in li:
+#         c+=1
 #         if i<min:
 #             min=i
+#             c+=1
+#     print(c)
 #     return min
-# print(min_num([8,95,-76,100]))
+# print(min_num([8,-76,95,100]))
 #במידה ומדובר ברשימה מאורגנת אפשר להפוך את זה ליותר קטן ע"י פניה לאינדס 0 ןאז זה O(1)
 #4
 # def even_num(li):
+#     global c
+#     c=1
 #     l=[]
+#     c+=1
 #     for i in li:
+#         c+=1
 #         if i%2==0:
 #             l.append(i)
+#             c+=1
+#     print(c)
 #     return sum(l)
 # print(even_num([1,6,4,5,56,66]))
 #סיבוכיות נשמרת ואינה משתנה כי הסיבוכיות מושפעת באופן ישיר מהמשתמש
@@ -58,20 +70,21 @@
 # print(even([1,2,3,4,5,9]))
 #סיבוכיות o(n) בשניה
 #7
-s=set()
-c=0
-def duplicate(l:list):
-    c=0
-    for i,v in enumerate(l):
-        for j,h in enumerate(l):
-            if v==h and i!=j:
-                s.add(v)
-                c +=1
-    print(c)
-    return s
-print(duplicate([1,2,2,3,5,7,8,7,8]))
+# s=set()
+# def duplicate(l:list):
+#     global c
+#     c=1
+#     for i,v in enumerate(l):
+#         for j,h in enumerate(l):
+#             c+=1
+#             if v==h and i!=j:
+#                 s.add(v)
+#                 c+=1
+#     print(c)
+#     return s
+# print(duplicate([1,2,8,2,8,7,6,9,9]))
 # O(N) בשניה
 #8
-
+#הוספתי לתכניות:3,4,7
 
 
