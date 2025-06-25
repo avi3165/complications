@@ -1,3 +1,8 @@
-#סופר פונקציות שאלה תשע
-א. משתנה על פי ה-N לכן זו סיבוכיות לניארית
- וסדר הגודל הוא לפי ה-N
+#complications 2 q9
+a. fun: O(n)
+b. fun time: O(n**2)
+c. very fun time: O(n)
+d. not very fun time: O(n**2)
+e. cool time: O(n)
+f. very cool time: it never stop
+g. cool with time: O(n)
